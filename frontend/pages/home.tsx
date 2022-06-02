@@ -1,14 +1,14 @@
 import Link from 'next/link';
 
-function About() {
+function Home() {
   return (
     <div>
-      <h1>About</h1>
+      <h1>Home</h1>
       <Link href='/'>
         <p>Index</p>
       </Link>
-      <Link href='/home'>
-        <p>Home</p>
+      <Link href='/about'>
+        <p>About</p>
       </Link>
       <Link href='/works'>
         <p>Works</p>
@@ -20,4 +20,4 @@ function About() {
   );
 }
 
-export default About;
+export default Home;
