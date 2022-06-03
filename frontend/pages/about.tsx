@@ -13,9 +13,6 @@ function About() {
       <Link href='/works'>
         <p>Works</p>
       </Link>
-      <Link href='/blog'>
-        <p>Blog</p>
-      </Link>
     </div>
   );
 }

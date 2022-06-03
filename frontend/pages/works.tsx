@@ -13,9 +13,6 @@ function Works() {
       <Link href='/about'>
         <p>About</p>
       </Link>
-      <Link href='/blog'>
-        <p>Blog</p>
-      </Link>
     </div>
   );
 }
