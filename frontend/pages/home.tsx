@@ -1,8 +1,13 @@
+import Head from 'next/head';
 import Link from 'next/link';
 
 function Home() {
   return (
     <div>
+      <Head>
+        <title>Home | Ayumu</title>
+        <meta name='description' content="Ayumu's PortfolioSite Home"></meta>
+      </Head>
       <h1>Home</h1>
       <Link href='/'>
         <p>Index</p>
