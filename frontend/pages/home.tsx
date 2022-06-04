@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Header from '../components/header';
 
 function Home() {
   return (
@@ -8,6 +9,9 @@ function Home() {
         <title>Home | Ayumu</title>
         <meta name='description' content="Ayumu's PortfolioSite Home"></meta>
       </Head>
+
+      <Header />
+
       <h1>Home</h1>
       <Link href='/'>
         <p>Index</p>
