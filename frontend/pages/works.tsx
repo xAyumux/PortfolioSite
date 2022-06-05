@@ -2,25 +2,25 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Header from '../components/header';
 
-function About() {
+function Works() {
   return (
     <div>
       <Head>
-        <title>About | Ayumu</title>
-        <meta name='description' content="Ayumu's PortfolioSite About"></meta>
+        <title>Works | Ayumu</title>
+        <meta name='description' content="Ayumu's PortfolioSite Works"></meta>
       </Head>
 
       <Header />
 
-      <h1>About</h1>
+      <h1>Works</h1>
       <Link href='/'>
         <p>Index</p>
       </Link>
       <Link href='/home'>
         <p>Home</p>
       </Link>
-      <Link href='/works'>
-        <p>Works</p>
+      <Link href='/about'>
+        <p>About</p>
       </Link>
 
       <h2>改行</h2>
@@ -43,4 +43,4 @@ function About() {
   );
 }
 
-export default About;
+export default Works;
