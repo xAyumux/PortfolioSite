@@ -11,6 +11,7 @@ import MenuItem from '@mui/material/MenuItem';
 import Toolbar from '@mui/material/Toolbar';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
+import { styled } from '@mui/system';
 import Link from 'next/link';
 import * as React from 'react';
 
@@ -25,6 +26,12 @@ const pages: Page[] = [
   { name: 'About', path: '/about' },
 ];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+
+const MyAppBar = styled('AppBar')({
+  backgroundColor: 'purple',
+  position: 'fixed',
+  opacity: 0.6,
+});
 
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
