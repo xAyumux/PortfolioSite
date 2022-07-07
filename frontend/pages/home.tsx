@@ -14,13 +14,13 @@ function Home() {
 
       <h1>Home</h1>
       <Link href='/'>
-        <p>Index</p>
+        <h2>Index</h2>
       </Link>
       <Link href='/about'>
-        <p>About</p>
+        <h2>About</h2>
       </Link>
       <Link href='/works'>
-        <p>Works</p>
+        <h3>Works</h3>
       </Link>
 
       <h2>改行</h2>
