@@ -25,8 +25,11 @@ const pages: Page[] = [
   { name: 'Home', path: '/home' },
   { name: 'About', path: '/about' },
 ];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
+// 未使用
+// const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+
+// カスタムUI
 const MyAppBar = styled('AppBar')({
   backgroundColor: 'purple',
   position: 'fixed',
@@ -35,22 +38,26 @@ const MyAppBar = styled('AppBar')({
 
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
-  const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
+  // 未使用
+  // const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
 
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorElUser(event.currentTarget);
-  };
+
+  // 未使用
+  // const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
+  //   setAnchorElUser(event.currentTarget);
+  // };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
+  // 未使用
+  // const handleCloseUserMenu = () => {
+  //   setAnchorElUser(null);
+  // };
 
   return (
     <AppBar position='static' color='secondary'>
